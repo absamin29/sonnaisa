@@ -884,6 +884,8 @@ section {
 .services .service-box.red .icon {
   color: #e9222c;
   background: #fef7f8;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .services .service-box.red .read-more {
@@ -892,6 +894,11 @@ section {
 
 .services .service-box.red:hover {
   background: #e9222c;
+}
+.services .service-box.red:hover .glightbox {
+  background: #e9222c;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
 }
 
 .services .service-box.purple {
