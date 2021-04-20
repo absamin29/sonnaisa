@@ -826,6 +826,11 @@ section {
   border: 2px solid #ffffff;
   border-radius: 5px;
 }
+.services .service-box.blue:hover .glightbox:hover {
+  background-color: #ffffff;
+  border: 2px solid #6565fc;
+  transition: all 0.4s ease;
+}
 
 /* orange */
 .services .service-box.orange {
@@ -850,6 +855,11 @@ section {
   color: #000000;
   border: 2px solid #ffffff;
   border-radius: 5px;
+}
+.services .service-box.orange:hover .glightbox:hover {
+  background-color: #ffffff;
+  border: 2px solid #ffa500;
+  transition: all 0.4s ease;
 }
 
 /* green */
@@ -876,7 +886,13 @@ section {
   border: 2px solid #ffffff;
   border-radius: 5px;
 }
+.services .service-box.green:hover .glightbox:hover {
+  background-color: #ffffff;
+  border: 2px solid #008000;
+  transition: all 0.4s ease;
+}
 
+/* red */
 .services .service-box.red {
   border-bottom: 3px solid #e9222c;
 }
@@ -896,11 +912,17 @@ section {
   background: #e9222c;
 }
 .services .service-box.red:hover .glightbox {
+  color: #000000;
   background: #e9222c;
   border: 2px solid #ffffff;
   border-radius: 5px;
 }
-
+.services .service-box.red:hover .glightbox:hover {
+  background-color: #ffffff;
+  border: 2px solid #ff0000;
+  transition: all 0.4s ease;
+}
+/* purple */
 .services .service-box.purple {
   border-bottom: 3px solid #b50edf;
 }
@@ -908,6 +930,8 @@ section {
 .services .service-box.purple .icon {
   color: #b50edf;
   background: #f8e4fd;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .services .service-box.purple .read-more {
@@ -917,7 +941,19 @@ section {
 .services .service-box.purple:hover {
   background: #b50edf;
 }
+.services .service-box.purple:hover .glightbox {
+  color: #000000;
+  background: #b50edf;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+}
+.services .service-box.purple:hover .glightbox:hover {
+  background-color: white;
+  border: 2px solid #800080;
+  transition: all 0.4s ease;
+}
 
+/* pink */
 .services .service-box.pink {
   border-bottom: 3px solid #f51f9c;
 }
@@ -925,6 +961,8 @@ section {
 .services .service-box.pink .icon {
   color: #f51f9c;
   background: #feecf7;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .services .service-box.pink .read-more {
@@ -933,6 +971,17 @@ section {
 
 .services .service-box.pink:hover {
   background: #f51f9c;
+}
+.services .service-box.pink:hover .glightbox {
+  color: #000000;
+  background: #f51f9c;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+}
+.services .service-box.pink:hover .glightbox:hover {
+  background-color: white;
+  border: 2px solid #ffc0cb;
+  transition: all 0.4s ease;
 }
 
 .services .service-box:hover h3, .services .service-box:hover p, .services .service-box:hover .read-more {
