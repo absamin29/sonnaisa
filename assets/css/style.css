@@ -2458,3 +2458,8 @@ section {
   border: 2px solid white;
   width: 100%;
 }
+
+.circle-p {
+  border-radius: 49%;
+  background-color: transparent;
+}
